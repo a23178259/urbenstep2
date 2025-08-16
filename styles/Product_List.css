@@ -1,0 +1,40 @@
+/* page container */
+
+a {
+  text-decoration: none;
+  display: block;
+}
+
+/* 鞋子圖片 hover */
+.hover-filter-shadow:hover {
+  filter: saturate(300%) drop-shadow(5px 5px 8px var(--neutral-600-6c757d));
+}
+
+/* 分頁器樣式 */
+.page-item .btn {
+  padding: 8px 15px;
+  border-radius: 0;
+  font-weight: 400;
+  width: 40px;
+}
+
+.page-item:nth-child(n + 3) .btn:hover {
+  color: var(--primary-500-477a11);
+  background-color: var(--primary-300-c0fa73);
+}
+
+.page-item .active {
+  background-color: var(--primary-300-c0fa73);
+}
+
+/* Header icon 固定寬度 */
+.header-icon {
+  display: inline-block;
+  width: 24px;
+  text-align: center;
+}
+
+/* Sidebar menu hover 文字顏色 */
+.sidebar-menu li:nth-child(n + 2) a:hover {
+  color: var(--primary-400-57a203);
+}

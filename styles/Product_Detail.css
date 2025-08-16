@@ -1,0 +1,47 @@
+/* page container */
+
+/* 產品圖片 */
+.product-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -4px;
+  margin-right: -4px;
+}
+
+.product-col {
+  width: calc(100% / 12 * 6);
+  padding-right: 4px;
+  padding-left: 4px;
+}
+
+.product-color {
+  width: 64px;
+  text-align: center;
+  cursor: pointer;
+}
+
+/* 產品尺碼 */
+.btn-product-size {
+  border: 1px solid var(--neutral-300-dee2e6);
+  width: 160px;
+}
+
+.btn-product-size.active,
+.btn-product-size:hover {
+  border-color: var(--neutral-900-212529);
+}
+
+/* 收藏與試穿 */
+.product-action .btn {
+  width: 50%;
+}
+
+.product-action .btn:first-child:hover {
+  border-color: var(--Danger-300-d74f4f);
+  color: var(--Danger-300-d74f4f);
+}
+
+/* 產品資訊 */
+.product-item {
+  border-bottom: 1px solid var(--neutral-300-dee2e6);
+}

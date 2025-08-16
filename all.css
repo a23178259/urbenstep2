@@ -1,0 +1,37 @@
+/* all.css */
+
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap");
+@import "./general-purpose-styles/CssReset.css";
+@import "./general-purpose-styles/variables.css";
+@import "./general-purpose-styles/base.css";
+@import "./general-purpose-styles/utils.css";
+@import "./general-purpose-styles/laout.css";
+
+/* =================
+    固定 Hover 樣式
+==================== */
+
+/* Header & Footer導航欄 hover */
+.header-footer-hover:hover {
+  color: var(--neutral-600-6c757d);
+}
+
+/* Header & Footer 導航欄 Logo hover */
+.header-footer-logo-hover:hover {
+  opacity: 40%;
+}
+
+/* Header 導航欄 icon hover */
+.header-icon-hover:hover {
+  opacity: 60%;
+}
+
+/* 麵包屑 hover */
+.breadcrumb-item a:hover {
+  color: var(--color-212529);
+}
+
+/* CTA hover */
+.btn-dark-hover:hover {
+  background-color: var(--neutral-600-6c757d);
+}

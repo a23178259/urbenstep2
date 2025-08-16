@@ -1,0 +1,44 @@
+/* ===================
+ 		    變數設定
+====================== */
+
+/* 顏色 */
+:root {
+  /* Primary */
+  --primary-100-f5fee7: #f5fee7;
+  --primary-200-e8fec5: #e8fec5;
+  --primary-300-c0fa73: #c0fa73;
+  --primary-400-57a203: #57a203;
+  --primary-500-477a11: #477a11;
+
+  /* Neutral */
+  --neutral-0-ffffff: #ffffff;
+  --neutral-100-f8f9fa: #f8f9fa;
+  --neutral-300-dee2e6: #dee2e6;
+  --neutral-500-adb5bd: #adb5bd;
+  --neutral-600-6c757d: #6c757d;
+  --neutral-900-212529: #212529;
+
+  /* Danger */
+  --Danger-100-fcf1f1: #fcf1f1;
+  --Danger-200-eba7a7: #eba7a7;
+  --Danger-300-d74f4f: #d74f4f;
+
+  /* Success */
+  --Success-100-eff8f4: #eff8f4;
+  --Success-200-9ad1ba: #9ad1ba;
+  --Success-300-36a375: #36a375;
+
+  /* Warning */
+  --Warning-100-fef6ec: #fef6ec;
+  --Warning-200-f9c588: #f9c588;
+  --Warning-300-f38b12: #f38b12;
+
+  /* Info */
+  --Info-100-eef5fc: #eef5fc;
+  --Info-200-97c3ed: #97c3ed;
+  --Info-100-3087db: #3087db;
+
+  /* 其他自訂義顏色 */
+  --color-6cc209d8: #6cc209d8;
+}

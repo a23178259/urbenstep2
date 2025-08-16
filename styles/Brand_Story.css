@@ -1,0 +1,107 @@
+/* page container */
+
+/* header 橫幅設定 */
+.Banner {
+  background-image: url("https://raw.githubusercontent.com/hexschool/2022-web-layout-training/refs/heads/main/2025-week1/hero.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  padding: 152px 0;
+  text-align: center;
+}
+
+/* 網頁容器設定 */
+.Story-container {
+  width: 856px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.img-container {
+  max-width: 1076px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* 設定 header 橫幅內的文字 */
+.bendstory-title {
+  font-size: 28px;
+}
+
+@media (max-width: 767px) {
+  .img-container {
+    width: 100%;
+    height: auto;
+  }
+  .Banner {
+    padding: 87px 0;
+    background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week3-4/hero-sm.png?raw=true");
+  }
+  .bendstory-title {
+    font-size: 20px;
+  }
+}
+
+/* 引用文字設定 */
+.quote {
+  max-width: 856px;
+  border-radius: 12px;
+  text-align: center;
+}
+
+@media (max-width: 767px) {
+  .quote {
+    text-align: left;
+  }
+  .w-100Percent {
+    width: 100%;
+  }
+}
+
+/* 章節分隔線 */
+.section-line {
+  border-bottom: 1px solid var(--neutral-300-dee2e6);
+}
+
+/* 品牌簡介上方的 img 設定 */
+.inrtro img {
+  width: 1076px;
+  margin: 0 auto;
+  margin-bottom: 24px;
+}
+
+/* 設定品牌歷程 ul 圓點樣式 */
+.history-list {
+  list-style-type: disc;
+  padding-left: 24px;
+}
+
+/* 設定品牌歷程 li 圓點 size */
+.disc::marker {
+  font-size: 10px;
+}
+
+/* 設定品牌歷程內容的 左側 border 樣式 */
+.history-item {
+  border-left: 1px solid var(--neutral-900-212529);
+  padding-left: 8px;
+}
+
+/* 設定品牌理念內容的 左側 border 樣式 */
+.concept-item {
+  padding-left: 12px;
+  border-left: 3px solid var(--neutral-300-dee2e6);
+}
+
+/* 品牌小故事 a 連結的樣式 */
+.section-line a {
+  color: var(--primary-400-57a203);
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  display: block;
+}
+
+/* 品牌小故事 a 連結的 hover */
+.section-line a:hover {
+  color: var(--primary-500-477a11);
+}

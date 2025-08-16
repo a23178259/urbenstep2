@@ -1,0 +1,112 @@
+/* ========================================
+   :root 定義
+======================================== */
+:root {
+  /* 顏色變數 */
+  --color-6c757d: #6c757d;
+  --color-212529: #212529;
+  --color-57a203: #57a203;
+  --color-bffa7385: #bffa7385;
+  --color-c0fa73: #c0fa73;
+  --color-e8fec5: #e8fec5;
+  --color-dee2e6: #dee2e6;
+  --color-f8f9fa: #f8f9fa;
+  --color-white: #fff;
+
+  /* 字體 */
+  --font-family: "Noto Sans TC", sans-serif;
+
+  /* 間距 */
+  --spacing-4: 4px;
+  --spacing-8: 8px;
+  --spacing-12: 12px;
+  --spacing-16: 16px;
+  --spacing-24: 24px;
+  --spacing-32: 32px;
+  --spacing-40: 40px;
+  --spacing-48: 48px;
+  --spacing-64: 64px;
+  --spacing-312: 312px;
+}
+
+/* ========================================
+     1. 全局基礎設定
+  ======================================== */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-family);
+  line-height: 1.5;
+  letter-spacing: 0.05em;
+  color: var(--color-212529);
+}
+
+/* 全局連結樣式 */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  color: var(--color-6c757d);
+}
+/* ========================================
+   2. 頁首區域
+======================================== */
+.site-header {
+  padding: var(--spacing-16) var(--spacing-312);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-left {
+  display: flex;
+  align-items: stretch;
+  gap: var(--spacing-24);
+}
+
+.logo-wrapper {
+  padding: 0 var(--spacing-12);
+  display: flex;
+  align-items: center;
+}
+
+.nav-list {
+  display: flex;
+  gap: var(--spacing-40);
+}
+
+.nav-list li {
+  padding: var(--spacing-12) 0;
+}
+
+.nav-item {
+  font-weight: 500;
+}
+
+.user-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: var(--spacing-12);
+  width: 48px;
+  height: 48px;
+  min-height: 48px;
+}
+
+.user-menu a img {
+  width: 24px;
+}
+
+/* 頁首 hover 效果 */
+.logo-wrapper a img:hover,
+.user-menu a img:hover {
+  opacity: 40%;
+}
